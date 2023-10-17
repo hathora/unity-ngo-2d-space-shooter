@@ -68,9 +68,9 @@ For help, questions, advice, or discussions about Netcode for GameObjects and it
 
 ## Other samples
 ### Photon Fusion BR on Hathora Cloud
-[@hathora/photon-fusion-br](https://github.com/hathora/photon-fusion-br) takes Photon Fusion's BR200 AAA sample game and modifies it to be easily deployable on Hathora Cloud.
+[Hathora Cloud + Photon Fusion Dedicated Server](https://github.com/hathora/hathora-photon-fusion-dedicated-server) is a minimal example of getting a dedicated server working with Photon Fusion.
 
 ### Hathora Unity Plugin
-[Hathora Unity Plugin (with FishNet and Mirror demos)](https://github.com/hathora/hathora-unity) is our Unity Plugin that comes with FishNet and Mirror networking demos. It allows you to deploy your game on Hathora Cloud directly from our editor plugin.
+[Hathora Unity Plugin (with FishNet and Mirror demos)](https://hathora.dev/docs/engines/unity/beginners-tutorial) is our Unity Plugin that comes with FishNet and Mirror networking demos. It allows you to deploy your game on Hathora Cloud directly from our editor plugin.
 <br><br>
 
