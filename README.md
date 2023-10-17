@@ -44,13 +44,14 @@ You will also need to have an account created for Hathora Cloud (sign up at: htt
 <br><br>
 
 ## Steps to deploy and integrate Unity NGO game with Hathora Cloud
+*Note: steps 1 - 3 have already been completed as part of this sample*
 
 1. Add [Hathora Cloud Unity Plugin](https://github.com/hathora/unity-plugin) to your project
 2. You must add a script to enable your dedicated server to automatically start in "Server" mode. See [NetworkCommandLine.cs](https://github.com/hathora/unity-ngo-sample/blob/main/2DSpaceShooter/Assets/Scripts/NetworkCommandLine.cs)
 3. Then, attach the new script to the `NetworkManager` game object in the scene. This enable the script to listen for command line arguments configured (`-mode server`).
-4. Use the Hathora Unity plugin to configure, build, and deploy your server on Hathora Cloud
+4. Use the Hathora Unity plugin to configure, build, and deploy your server on Hathora Cloud (for more detailed steps, check out [this guide](https://hathora.dev/docs/engines/unity/beginners-tutorial)).
 5. Once deployed, create a room in Hathora Cloud (via plugin or [Hathora Console](https://console.hathora.dev)
-6. Run your game client and enter in the connection information shown (note: you will need to convert the hostname to an IP address (i.e. `dig 1.proxy.hathora.dev` in terminal)
+6. Run your game client and enter in the connection information shown (note: you will need to convert the hostname to an IP address (i.e. `dig hnzpvf.edge.hathora.dev` in your terminal)
 
 
 ## Troubleshooting
