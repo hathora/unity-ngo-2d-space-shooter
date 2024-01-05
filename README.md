@@ -47,7 +47,7 @@ You will also need to have an account created for Hathora Cloud (sign up at: htt
 *Note: steps 1 - 3 have already been completed as part of this sample*
 
 1. Add [Hathora Cloud Unity Plugin](https://github.com/hathora/unity-plugin) to your project
-2. You must add a script to enable your dedicated server to automatically start in "Server" mode. See [NetworkCommandLine.cs](https://github.com/hathora/unity-ngo-sample/blob/main/2DSpaceShooter/Assets/Scripts/NetworkCommandLine.cs)
+2. You must add a script to enable your dedicated server to automatically start in "Server" mode. See [NetworkCommandLine.cs](https://github.com/hathora/unity-ngo-2d-space-shooter/blob/main/src/Assets/Scripts/NetworkCommandLine.cs)
 3. Then, attach the new script to the `NetworkManager` game object in the scene. This enable the script to listen for command line arguments configured (`-mode server`).
 4. Use the Hathora Unity plugin to configure, build, and deploy your server on Hathora Cloud (for more detailed steps, check out [this guide](https://hathora.dev/docs/engines/unity/beginners-tutorial)).
 5. Once deployed, create a room in Hathora Cloud (via plugin or [Hathora Console](https://console.hathora.dev)
